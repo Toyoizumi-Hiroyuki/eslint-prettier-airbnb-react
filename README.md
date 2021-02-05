@@ -10,7 +10,10 @@
 2. Run command inside your app's root directory.
 
    ```bash
+   # Windows
    .\eslint-prettier-config.sh
+   # Mac
+   exec 3<&1;bash eslint-prettier-config.sh 
    ```
 
 3. Make selections for your preference of package manager (npm or yarn), file format (.js or .json), max-line size, and trailing commas (none, es5, all).

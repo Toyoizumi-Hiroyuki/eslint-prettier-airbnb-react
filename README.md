@@ -63,7 +63,9 @@
 "extends": [
     "airbnb",
     "plugin:prettier/recommended",
-    "prettier/react"
+    // if eslint-config-prettier < Ver 8.x
+    // "prettier/react"
+    "prettier/prettier"
   ],
   "env": {
     "browser": true,
